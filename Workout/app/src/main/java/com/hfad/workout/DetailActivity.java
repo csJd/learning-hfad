@@ -1,9 +1,9 @@
 package com.hfad.workout;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class DetailActivity extends AppCompatActivity {
+public class DetailActivity extends Activity {
 
     public static final String WORKOUT_ID = "id";
 
