@@ -34,14 +34,13 @@ public class WorkoutListFragment extends ListFragment {
         ArrayAdapter<Workout> adapter = new ArrayAdapter<Workout>(
                 inflater.getContext(), android.R.layout.simple_list_item_1, Workout.workouts);
         setListAdapter(adapter);
-
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        listener = (WorkoutListListener) activity;
+        this.listener = (WorkoutListListener) activity;
     }
 
     @Override
