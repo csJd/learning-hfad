@@ -9,8 +9,13 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/action_test"
-        android:icon="@drawable/ic_note_add_black_24dp"
+        android:icon="@drawable/ic_note_add_white_24dp"
         android:title="Add order"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
 
 </menu>
